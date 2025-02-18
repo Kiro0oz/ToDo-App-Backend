@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+*.env
+*.venv
+Pipfile
+Pipfile.lock
+
+# Django-related files
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+static/
+*.log
+logs/
+
+# Django Migrations (optional)
+**/migrations/*  
+!**/migrations/__init__.py  # Keep the init file
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Deployment
+.env.production
+.env.local
+docker-compose.override.yml
